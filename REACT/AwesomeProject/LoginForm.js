@@ -1,7 +1,7 @@
 // frontend/src/components/LoginForm.js
 import React, { useState } from 'react';
 import { View, TextInput, Button } from 'react-native';
-// import { login } from 'api';
+// import { login } from '../api/api';
 
 const LoginForm = () => {
   const [username, setUsername] = useState('');
